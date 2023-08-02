@@ -1,0 +1,179 @@
+.App{
+  height: 98vh;
+  background-color: rgb(220, 243, 244);
+}
+.logo{
+    width: 45px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+.brandname{
+  position: absolute;
+  color: rgb(231, 227, 219);
+  font-size: 2rem;
+  font-style: italic;
+}
+.nav-ul {
+  padding: 5px;
+  padding-left: 10rem;
+  border: 1px solid snow;
+  margin: 0px;
+  background-color: rgb(9, 9, 45);
+}
+
+.nav-right{
+  text-align: right;
+  padding-right: 2rem;
+}
+.nav-ul li{
+  display:  inline-block;
+  padding: 10px;
+}
+.nav-ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.product{
+  margin-left: 40%;
+}
+.inputbox{
+  padding: 7px;
+  border: 1px solid rgb(167, 170, 172);
+  border-radius: 10px;
+  display: block;
+  width: 300px;
+  margin: 20px;
+  margin-bottom: 30px;
+}
+
+.addbutton{
+  margin: 20px;
+  width: 150px;
+  padding: 10px;
+  background-color: skyblue;
+  border: 1px solid gray;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+.login-container{
+  height: 90vh;
+}
+.product-list {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product-list ul li {
+  display: inline-block;
+  width: 200px;
+  border: 1px solid rgb(86, 88, 88);
+  padding: 5px;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(9, 9, 45);
+  height: 12vh;
+  width: 100%;
+}
+
+.aboutus-contains{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.insta,.whatsapp,.twitter
+{
+  width: 25px;
+  height: 25px;
+  border: 1px solid snow;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+
+/* .footer{
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(9, 9, 45);
+  border: 1px solid black;
+  height: 8vh;
+  width: 100%;
+  text-align: center;
+}
+.aboutus-contains{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  
+}
+
+.insta{
+  width: 40px;
+  height: 40px;
+  border: 1px solid snow;
+  border-radius: 50%;
+  margin-left: 5px;
+} */
+
+
+.signup-container{
+  height: 85vh;
+}
+.form-container{
+  /* bg-slate-50 rounded-xl block shadow-slate-200 w-90 p-6 */
+  /* background-color: rgb(241 245 249);
+  display: block;
+  width: 24rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: #e2e8f0; */
+}
+.header{
+  /* text-black-200 my-4 text-mxl font-semibold */
+  /* color: black;
+  margin: 1rem 0 1rem 0;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600; */
+}
+
+.fullname{
+  /* flex flex-row */
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.firstname,.lastname{
+  /* w-1/2 mr-1 */
+  /* width: 50%;
+  margin-right: 4px; */
+}
+.lastname{
+  /* margin-left: 10px; */
+}
+
+.firstname input,.lastname input,.email{
+  /* border border-slate-300 rounded-md text-sm h-7 w-full pl-2 outline-blue-10 bg-transparent */
+  /* border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 20px;
+  height: 28px;
+  width: 100%;
+  padding-left: 5px;
+  outline-color: #e6effa;
+  background: transparent; */
+}
+
+
+
