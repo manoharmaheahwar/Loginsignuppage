@@ -3,32 +3,6 @@ import React, { useState } from 'react'
 
 export default function AddProducts() {
 
-  // const [formValues, setFormValues] = useState({
-  //   name: "",
-  //   price: "",
-  //   category: "",
-  //   company: ""
-  // });
-
-  // const [records, setRecords] = useState([]);
-  
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   setRecords([...records, formValues]);
-  //   setFormValues({
-  //     name: "",
-  //     price: "",
-  //     category: "",
-  //     company: ""
-  //   });
-  // };
-
-
-
-
-
-
-
    const [name,setName]=useState("");
    const [price,setPrice]=useState("");
    const [category,setCategory]=useState("");

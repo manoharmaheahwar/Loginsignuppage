@@ -31,8 +31,8 @@ export default function SignUp() {
     }
 
   return (
-    <div id='form-page-container' className='signup-container flex justify-center items-center bg-blue-200'>
-      <div id='form-container' className='form-container bg-slate-50 rounded-xl block shadow-slate-200 w-90 p-6'>
+    <div id='form-page-container' className='signup-container flex justify-center items-center'>
+      <div id='form-container' className='form-container bg-blue-50 rounded-xl block shadow-slate-200 w-90 p-6'>
         <form action="">
           <h2 className=' header text-black-200 my-4 text-mxl font-semibold'>Register</h2>
 

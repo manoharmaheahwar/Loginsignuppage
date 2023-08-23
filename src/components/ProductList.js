@@ -50,7 +50,7 @@ const ProductList = () => {
 
     return (
         <div className="product-list">
-            <h3 className=' font-semibold m-5 text-3xl'>Product List</h3>
+            <h3 className=' text-yellow-300 font-serif font-semibold m-5 text-3xl'>Product List</h3>
             <input type="" className=' bg-emerald-50 m-4 rounded-lg border-2 border-slate-400 p-1 w-1/4' placeholder='Search Product'
             onChange={searchHandle}
              />
